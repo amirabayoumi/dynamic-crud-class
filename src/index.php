@@ -58,3 +58,20 @@ $userCrud->update(3, $data);
 print "<pre>";
 print_r($userCrud->getAll());
 print "</pre>";
+
+
+
+//------------------
+
+$productCrud = new Crud('products');
+
+print "<pre>";
+print_r($productCrud->getAll());
+print "</pre>";
+
+
+// $productCrud->delete(5);
+
+// print "<pre>";
+// print_r($productCrud->getAll());
+// print "</pre>";
